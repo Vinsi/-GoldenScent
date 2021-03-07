@@ -1,18 +1,19 @@
 {
     "rows": [{
-            "row-margin-left": "0px",
+            "row-margin-left": "20px",
             "row-margin-right": "0px",
             "row-margin-bottom": "5px",
+            "height": "100px",
             "columns": [{
                 "type": "image",
-                "src": "https: //picsum.photos/300/200"
+                "src": "https://picsum.photos/300/200"
             }]
         },
         {
         "row-margin-bottom": "10px",
-        "row-margin-right": "0px",
-        "row-margin-left": "0px",
-        "height": "328px",
+        "row-margin-right": "10px",
+        "row-margin-left": "10px",
+        "height": "100px",
         "columns": [{
             "type": "custom-slider",
             "slides": [{
@@ -30,13 +31,25 @@
                 {
                     "type": "image",
                     "src": "https://picsum.photos/300/200"
+                },
+                {
+                    "type": "image",
+                    "src": "https://picsum.photos/300/200"
+                },
+                {
+                    "type": "image",
+                    "src": "https://picsum.photos/300/200"
+                },
+                {
+                    "type": "image",
+                    "src": "https://picsum.photos/300/200"
                 }
             ]
         }]
     },
         {
-            "row-margin-left": "0px",
-            "row-margin-right": "0px",
+            "row-margin-left": "20px",
+            "row-margin-right": "10px",
             "columns": [{
                 "type": "image",
                 "src": "https://picsum.photos/300/200"

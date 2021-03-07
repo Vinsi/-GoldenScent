@@ -56,9 +56,7 @@ extension LayoutDataModel {
         
         func encode(to encoder: Encoder) throws {
             var container = encoder.singleValueContainer()
-            
             try container.encode("\(value)\(type.rawValue)")
-            
         }
     }
     
@@ -68,7 +66,7 @@ extension LayoutDataModel {
         let rowMarginRight: LayoutSize?
         let rowMarginBottom: LayoutSize?
         let columns: [Column]?
-        let height: String?
+        let height: LayoutSize?
         
         enum CodingKeys: String, CodingKey {
             case rowMarginLeft = "row-margin-left"
