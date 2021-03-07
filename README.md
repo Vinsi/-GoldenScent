@@ -16,4 +16,7 @@ I enable it if we are having any non compatible spm version of pod is being used
 > Done!!!
 * 		 Actual approximate number of hours invested. 
 >8 hours
-*  
+- *Thanks & Regards For availing this opportunity*
+- *Vinsi.T*
+- *+971559425988*
+- *leo.winc@gmail.com*
