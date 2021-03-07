@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,6 @@
 		734AC7F2492E30F06E02B1E1 /* Pods_GoldenScentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB614C7AF3E24254373F4957 /* Pods_GoldenScentTests.framework */; };
 		A904E31F25F1F070000F5D2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904E31E25F1F070000F5D2C /* AppDelegate.swift */; };
 		A904E32125F1F070000F5D2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904E32025F1F070000F5D2C /* SceneDelegate.swift */; };
-		A904E32325F1F070000F5D2C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904E32225F1F070000F5D2C /* MainViewController.swift */; };
 		A904E32625F1F070000F5D2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A904E32425F1F070000F5D2C /* Main.storyboard */; };
 		A904E32825F1F072000F5D2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A904E32725F1F072000F5D2C /* Assets.xcassets */; };
 		A904E32B25F1F072000F5D2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A904E32925F1F072000F5D2C /* LaunchScreen.storyboard */; };
@@ -19,7 +18,16 @@
 		A904E34125F1F072000F5D2C /* GoldenScentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904E34025F1F072000F5D2C /* GoldenScentUITests.swift */; };
 		A904E36125F1F735000F5D2C /* LayoutDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904E36025F1F735000F5D2C /* LayoutDataModel.swift */; };
 		A904E36925F1F799000F5D2C /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A904E36825F1F799000F5D2C /* data.json */; };
+		A904E38025F22022000F5D2C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904E37825F21E0C000F5D2C /* Utility.swift */; };
 		A910CA366C99C68DCDEA0B32 /* Pods_GoldenScent_GoldenScentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08E0BD33E36204FCF1B32487 /* Pods_GoldenScent_GoldenScentUITests.framework */; };
+		A9C4718325F2B042007FEA38 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4718225F2B042007FEA38 /* ViewModel.swift */; };
+		A9C4718925F33775007FEA38 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A9C4718825F33775007FEA38 /* Kingfisher */; };
+		A9C4718F25F33865007FEA38 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4718E25F33865007FEA38 /* Cells.swift */; };
+		A9C4719A25F34565007FEA38 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4719925F34565007FEA38 /* MainViewController.swift */; };
+		A9C471A225F35E18007FEA38 /* data2.json in Resources */ = {isa = PBXBuildFile; fileRef = A9C471A125F35E18007FEA38 /* data2.json */; };
+		A9C471BC25F4FDB7007FEA38 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C471BB25F4FDB7007FEA38 /* ViewModelTests.swift */; };
+		A9C471C125F508A1007FEA38 /* mock_layout.json in Resources */ = {isa = PBXBuildFile; fileRef = A9C471C025F508A1007FEA38 /* mock_layout.json */; };
+		A9C471CB25F54ED3007FEA38 /* mock_layout.json in Resources */ = {isa = PBXBuildFile; fileRef = A9C471C025F508A1007FEA38 /* mock_layout.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +56,6 @@
 		A904E31B25F1F070000F5D2C /* GoldenScent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldenScent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A904E31E25F1F070000F5D2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A904E32025F1F070000F5D2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A904E32225F1F070000F5D2C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A904E32525F1F070000F5D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A904E32725F1F072000F5D2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A904E32A25F1F072000F5D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +68,13 @@
 		A904E34225F1F072000F5D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A904E36025F1F735000F5D2C /* LayoutDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutDataModel.swift; sourceTree = "<group>"; };
 		A904E36825F1F799000F5D2C /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		A904E37825F21E0C000F5D2C /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		A9C4718225F2B042007FEA38 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A9C4718E25F33865007FEA38 /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		A9C4719925F34565007FEA38 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A9C471A125F35E18007FEA38 /* data2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data2.json; sourceTree = "<group>"; };
+		A9C471BB25F4FDB7007FEA38 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		A9C471C025F508A1007FEA38 /* mock_layout.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mock_layout.json; sourceTree = "<group>"; };
 		CB614C7AF3E24254373F4957 /* Pods_GoldenScentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoldenScentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D714ABAED167FF6F59537D1E /* Pods_GoldenScent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoldenScent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8CA05BAC6D41EB44A5DC0B /* Pods-GoldenScent-GoldenScentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldenScent-GoldenScentUITests.debug.xcconfig"; path = "Target Support Files/Pods-GoldenScent-GoldenScentUITests/Pods-GoldenScent-GoldenScentUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C4718925F33775007FEA38 /* Kingfisher in Frameworks */,
 				5DB783FE91D45137FB7CFFB5 /* Pods_GoldenScent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +172,8 @@
 			children = (
 				A904E33525F1F072000F5D2C /* GoldenScentTests.swift */,
 				A904E33725F1F072000F5D2C /* Info.plist */,
+				A9C471C025F508A1007FEA38 /* mock_layout.json */,
+				A9C471BB25F4FDB7007FEA38 /* ViewModelTests.swift */,
 			);
 			path = GoldenScentTests;
 			sourceTree = "<group>";
@@ -182,9 +199,10 @@
 		A904E35B25F1F6EE000F5D2C /* MainViewController */ = {
 			isa = PBXGroup;
 			children = (
+				A9C4718D25F33795007FEA38 /* Views */,
+				A904E37725F21DF3000F5D2C /* Helper */,
 				A904E37025F218A9000F5D2C /* ViewModel */,
 				A904E35F25F1F726000F5D2C /* Models */,
-				A904E32225F1F070000F5D2C /* MainViewController.swift */,
 				A904E32425F1F070000F5D2C /* Main.storyboard */,
 			);
 			path = MainViewController;
@@ -195,6 +213,7 @@
 			children = (
 				A904E36025F1F735000F5D2C /* LayoutDataModel.swift */,
 				A904E36825F1F799000F5D2C /* data.json */,
+				A9C471A125F35E18007FEA38 /* data2.json */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -202,8 +221,26 @@
 		A904E37025F218A9000F5D2C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A9C4718225F2B042007FEA38 /* ViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A904E37725F21DF3000F5D2C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A904E37825F21E0C000F5D2C /* Utility.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A9C4718D25F33795007FEA38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9C4719925F34565007FEA38 /* MainViewController.swift */,
+				A9C4718E25F33865007FEA38 /* Cells.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +260,9 @@
 			dependencies = (
 			);
 			name = GoldenScent;
+			packageProductDependencies = (
+				A9C4718825F33775007FEA38 /* Kingfisher */,
+			);
 			productName = GoldenScent;
 			productReference = A904E31B25F1F070000F5D2C /* GoldenScent.app */;
 			productType = "com.apple.product-type.application";
@@ -296,6 +336,9 @@
 				Base,
 			);
 			mainGroup = A904E31225F1F070000F5D2C;
+			packageReferences = (
+				A9C4718725F33775007FEA38 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = A904E31C25F1F070000F5D2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -315,7 +358,9 @@
 				A904E32B25F1F072000F5D2C /* LaunchScreen.storyboard in Resources */,
 				A904E32825F1F072000F5D2C /* Assets.xcassets in Resources */,
 				A904E32625F1F070000F5D2C /* Main.storyboard in Resources */,
+				A9C471A225F35E18007FEA38 /* data2.json in Resources */,
 				A904E36925F1F799000F5D2C /* data.json in Resources */,
+				A9C471CB25F54ED3007FEA38 /* mock_layout.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +368,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C471C125F508A1007FEA38 /* mock_layout.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,9 +455,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A904E32325F1F070000F5D2C /* MainViewController.swift in Sources */,
+				A9C4719A25F34565007FEA38 /* MainViewController.swift in Sources */,
+				A904E38025F22022000F5D2C /* Utility.swift in Sources */,
+				A9C4718F25F33865007FEA38 /* Cells.swift in Sources */,
 				A904E31F25F1F070000F5D2C /* AppDelegate.swift in Sources */,
 				A904E32125F1F070000F5D2C /* SceneDelegate.swift in Sources */,
+				A9C4718325F2B042007FEA38 /* ViewModel.swift in Sources */,
 				A904E36125F1F735000F5D2C /* LayoutDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C471BC25F4FDB7007FEA38 /* ViewModelTests.swift in Sources */,
 				A904E33625F1F072000F5D2C /* GoldenScentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -745,6 +795,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A9C4718725F33775007FEA38 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A9C4718825F33775007FEA38 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9C4718725F33775007FEA38 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A904E31325F1F070000F5D2C /* Project object */;
 }

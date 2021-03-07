@@ -1,0 +1,39 @@
+
+{
+    "rows": [
+        {
+        "row-margin-bottom": "10px",
+        "row-margin-right": "0px",
+        "row-margin-left": "0px",
+        "height": "100px",
+        "columns": [{
+            "type": "text",
+            "background": {
+                "color": "#ffffff"
+            },
+            "font-color": "#000000",
+            "font-size": 12,
+            "font": "Gilroy-Bold",
+            "content": "Makeup"
+        }, {
+            "type": "text",
+            "font-color": "#000000",
+            "font-size": 12,
+            "font": "Gilroy-Bold",
+            "content": "Skincare",
+            "background": {
+                "color": "#ffffff"
+            }
+        }, {
+            "type": "text",
+            "font-color": "#000000",
+            "font-size": 12,
+            "font": "Gilroy-Bold",
+            "content": "Hair & Body",
+            "background": {
+                "color": "#ffffff"
+            }
+        }]
+        }
+    ]
+}
